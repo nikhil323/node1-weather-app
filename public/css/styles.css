@@ -16,6 +16,7 @@ footer {
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
+    text-align: center;
 }
 
 header {
@@ -27,12 +28,21 @@ header {
 h1 {
     font-size: 64px;
     margin-bottom: 16px;
+    text-align: center;
+}
+
+header nav {
+    text-align: center;
+    padding:5px;
 }
 
 header a {
     color: #88888888;
-    margin-right: 16px;
+    margin-right: 3rem;
     text-decoration: none;
+    padding:5px;
+
+    
 }
 
 .robotImg {
@@ -43,6 +53,16 @@ header a {
     flex-grow: 1;
 }
 
+.main-content p {
+    text-align: center;
+}
+
+.main-content form {
+    text-align: center;
+    margin-top:4rem;
+}
+
+
 input {
     border: 1px solid #cccccc;
     padding: 7px;
@@ -50,9 +70,30 @@ input {
 
 button {
     cursor: pointer;
-    border: 1px solid #888888;
+    border: 1px solid #333333;
     background: #888888;
     color: white;
     padding: 7px;
+    border-radius: 5px;
+    margin-left:0;
 
+}
+
+button:hover {
+    color:white;
+    background-color: black;
+}
+
+nav a:hover {
+    color:white;
+    background-color: black;
+}
+
+.navigation {
+    margin-top: 3rem;
+    margin-bottom: -2rem;
+}
+
+nav a {
+    margin:1rem;
 }
